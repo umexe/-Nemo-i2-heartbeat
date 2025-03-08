@@ -1,2 +1,2 @@
 # i2-heartbeat
-45 Degrees rewrite of i2 Heartbeat software
+Rewrite of Dalk21/i2-heartbeat made using the i2.js library.
