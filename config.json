@@ -1,0 +1,23 @@
+{
+  "port": 9092,
+  "star": "xd",
+  "debugger": true,
+  "heartbeat": {
+    "lf": {
+      "flavor": "V",
+      "duration": 1950,
+      "background": 3029,
+      "delay": 10
+    },
+    "sidebar": {
+      "enabled": false,
+      "flavor": "SidebarXD"
+    },
+    "ldlFlavor": "ldlC",
+    "runOn": {
+      "startOn": 8,
+      "every": 10
+    },
+    "enabled": true
+  }
+}
