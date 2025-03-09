@@ -5,7 +5,8 @@
         {"name":"Enhanced","duration":27000,"preview":"#","product":"ldlC"},
         {"name":"Enhanced Storm","duration":27000,"preview":"#","product":"ldlD"},
         {"name":"Enhanced Catastrophic","duration":27000,"preview":"#","product":"ldlG"},
-        {"name":"Enhanced Longform","duration":27000,"preview":"#","product":"ldlI"}
+        {"name":"Enhanced Longform","duration":27000,"preview":"#","product":"ldlI"},
+        {"name":"Azul LDL 16%","duration":27000,"preview":"#","product":"azulldl_16"}
     ],
     "lf": [
         {"name":"Enhanced","duration":1950,"preview":"#","product":"V"},
@@ -31,7 +32,8 @@
         {"name":"Enhanced","duration":27000,"preview":"#","product":"ldlC"},
         {"name":"Enhanced Storm","duration":27000,"preview":"#","product":"ldlD"},
         {"name":"Enhanced Catastrophic","duration":27000,"preview":"#","product":"ldlG"},
-        {"name":"Enhanced Longform","duration":27000,"preview":"#","product":"ldlI"}
+        {"name":"Enhanced Longform","duration":27000,"preview":"#","product":"ldlI"},
+        {"name":"Azul LDL 16%","duration":27000,"preview":"#","product":"azulldl_16"}
     ],
     "hb3": [
         {"name":"No Sidebars - you're on an i2jr!"}
