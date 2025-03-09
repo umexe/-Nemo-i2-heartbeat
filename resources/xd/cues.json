@@ -6,7 +6,9 @@
         {"name":"Enhanced Storm","duration":27000,"preview":"#","product":"ldlD"},
         {"name":"Enhanced Catastrophic","duration":27000,"preview":"#","product":"ldlG"},
         {"name":"Enhanced Longform","duration":27000,"preview":"#","product":"ldlI"},
-        {"name":"Enhanced LOT8s","duration":27000,"preview":"#","product":"Z"}
+        {"name":"Enhanced LOT8s","duration":27000,"preview":"#","product":"Z"},
+        {"name":"Azul LDL","duration":27000,"preview":"#","product":"azulldl"},
+		{"name":"Azul LDL16","duration":27000,"preview":"#","product":"azulldl_16"}
     ],
     "lf": [
         {"name":"Nemo","duration":1950,"preview":"#","product":"V"},
@@ -44,6 +46,8 @@
         {"name":"Enhanced Storm","duration":27000,"preview":"#","product":"ldlD"},
         {"name":"Enhanced Catastrophic","duration":27000,"preview":"#","product":"ldlG"},
         {"name":"Enhanced Longform","duration":27000,"preview":"#","product":"ldlI"},
-        {"name":"Enhanced LOT8s","duration":27000,"preview":"#","product":"Z"}
+        {"name":"Enhanced LOT8s","duration":27000,"preview":"#","product":"Z"},
+        {"name":"Azul LDL","duration":27000,"preview":"#","product":"azulldl"},
+		{"name":"Azul LDL16","duration":27000,"preview":"#","product":"azulldl_16"}
     ]
 }
