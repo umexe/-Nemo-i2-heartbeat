@@ -8,7 +8,7 @@ const app = new express()
 
 app.get("/playlist/run/:flavor/:duration/:pid/:tag", async (req, res) => {
     const {flavor, duration, pid, tag} = req.params
-    await i2.playlistManager.loadPres(flavor, duration, pid, (tag || null))
+    await i2.playlistManager.loadPres(`domestic/${flavor}`, duration, pid, (tag || null))
     setTimeout(async () => {
         await i2.playlistManager.runPres(pid)
         res.send("Ran playlist!")
