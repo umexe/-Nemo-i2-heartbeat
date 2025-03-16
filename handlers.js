@@ -17,7 +17,11 @@ async function runLdl() {
 async function heartbeat(force) {
     const config = JSON.parse(fs.readFileSync(path.join(__dirname, "config.json")))
     if((config.heartbeat.enabled == true) || (force == true)) {
-        const background = ((config.heartbeat.lf.background == null) ? null : `domesticAds/TAG${config.heartbeat.lf.background}`)
+        let background = ((config.heartbeat.lf.background == null) ? null : `domesticAds/TAG${config.heartbeat.lf.background}`)
+	if(background == "domesticAds/TAG9") {
+		const backgrounds = require(`./resources/${config.star}/backgrounds.json`)
+		background = `domesticAds/TAG${(backgrounds[Math.round(Math.random() * backgrounds.length)] || backgrounds[0]).id}`		
+	}
         const delay = config.heartbeat.lf.delay
         const cancelFlavors = [{"id":"ldl3"},{"id":"sidebar2"}]
         const startFlavors = [{"id":"ldl3","flavor":`domestic/${config.heartbeat.ldlFlavor}`,"duration":27000}]
