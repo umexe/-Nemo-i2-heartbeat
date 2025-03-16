@@ -20,7 +20,7 @@ async function heartbeat(force) {
         let background = ((config.heartbeat.lf.background == null) ? null : `domesticAds/TAG${config.heartbeat.lf.background}`)
 	if(background == "domesticAds/TAG9") {
 		const backgrounds = require(`./resources/${config.star}/backgrounds.json`)
-		background = `domesticAds/TAG${(backgrounds[Math.round(Math.random() * backgrounds.length)] || backgrounds[0]).id}`		
+		background = `domesticAds/TAG${(backgrounds[Math.round(Math.random() * backgrounds.length)].ID || backgrounds[0].ID)}`		
 	}
         const delay = config.heartbeat.lf.delay
         const cancelFlavors = [{"id":"ldl3"},{"id":"sidebar2"}]
