@@ -33,7 +33,7 @@ async function heartbeat(force) {
         log("Playlist handled successfully.")
         return true;
     } else {
-        log("Didn't run playlist at heartbeat time due to disabled.")
+        log("Didn't run playlist at heartbeat time due to heartbeat being disabled.")
         return false;
     }
 }
@@ -87,7 +87,6 @@ function scheduleHeartbeat() {
     if (currentTime >= nextRunTime) {
         heartbeatData = JSON.parse(fs.readFileSync(path.join(__dirname, "config.json")));
         heartbeat(false);
-        console.log("heart beating @ ", new Date().toLocaleString());
         nextRunTime = new Date(nextRunTime.getTime() + (runOn.every * 60 * 1000));
     }
   
