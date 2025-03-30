@@ -130,7 +130,7 @@ function log(message, forceDebugEnable, onBoot) {
         console.log(centerText(`Made by Dalk`, width));
         console.log(centerText(`Built for IntelliStar 2 (Model: ${configuration.star})`, width));
         console.log(centerText(`##########################################`, width));
-        const debugtxt = path.join(__dirname, "..", "debug.txt")
+        const debugtxt = path.join(__dirname, "debug.txt")
         if(!fs.existsSync(debugtxt)) {
             fs.writeFileSync(debugtxt, ("utf-8", "First write to Debug logs"))
         } else {
@@ -142,7 +142,7 @@ function log(message, forceDebugEnable, onBoot) {
     if(configuration.debugger || forceDebug) {
         console.log(`i2 Heartbeat (v${package.version}) Debugger | ${new Date().toLocaleString()} | ${message}`)
 
-        const debugtxt = path.join(__dirname, "..", "debug.txt")
+        const debugtxt = path.join(__dirname, "debug.txt")
         if(!fs.existsSync(debugtxt)) {
             fs.writeFileSync(debugtxt, ("utf-8", "First write to Debug logs"))
         } else {
