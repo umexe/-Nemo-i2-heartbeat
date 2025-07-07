@@ -7,11 +7,11 @@
       "flavor": "V",
       "duration": 1950,
       "background": 3029,
-      "delay": 5
+      "delay": 20
     },
     "sidebar": {
       "enabled": false,
-      "flavor": "SidebarXD"
+      "flavor": "SidebarE"
     },
     "ldlFlavor": "ldlC",
     "runOn": {
